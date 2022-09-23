@@ -14,9 +14,8 @@ spec:
     spec:
       containers:
         - name: node-app
-          image: iflash119/examplenode-dev:7
+          image: adrian119/examplenode-dev:8
           ports:
             - containerPort: 3000
       imagePullSecrets:
-       - name: regcred
-
+        - name: regcred
