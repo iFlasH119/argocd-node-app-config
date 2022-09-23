@@ -17,3 +17,6 @@ spec:
           image: iflash119/examplenode-dev:7
           ports:
             - containerPort: 3000
+      imagePullSecrets:
+       - name: regcred
+
